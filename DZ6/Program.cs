@@ -6,7 +6,8 @@ class Program
     {
         Task1 task1 = new Task1();
         Task2 task2 = new Task2();
-        task2.Run();
+        Task3 task3 = new Task3();
+        task3.Run();
         Console.ReadKey();
     }
 }
